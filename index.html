@@ -16,6 +16,10 @@ table, th, td {
 	width: 800px;
 
 }
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
 </style>
   </head>
   <body style="background-image: url(webbackground.jpg)">
@@ -54,7 +58,8 @@ table, th, td {
     </p>
     <br>
 	  <p>Tensile Strength Properties of Selected Metals (ASM 1990)</p>
-	<table style="width: 100%;">
+	<div class="flex-container>
+	<table style="width: 80%; table-layout: auto;">
 		<tr>
 		  <td style="width: 441px"></td>
 		  <td colspan="2" style="text-align: right; width: 86px;">Strength (KSI)</td>
@@ -117,7 +122,8 @@ table, th, td {
 		  <td style="text-align: right">227</td>
 		  <td style="text-align: right">19</td>
 		</tr>
-	</table>
+       </table>
+       </div>
     <br>
     <p> In Strip<br>
       <img 		src="./InStrip/String.jpg" alt="In Strip String" style="text-align: left; width: 32%"/>
